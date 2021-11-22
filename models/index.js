@@ -13,13 +13,15 @@ Category.hasMany(Product, {
   onDelete: "CASCADE",
 });
 
-Product.belongsToMany(ProductTag, {
+Product.belongsToMany(Tag, {
   foreignKey: "product_id",
+  through: ProductTag,
   onDelete: "CASCADE",
 });
 
-Tag.belongsToMany(ProductTag, {
+Tag.belongsToMany(Product, {
   foreignKey: "tag_id",
+  through: ProductTag,
   onDelete: "CASCADE",
 });
 
