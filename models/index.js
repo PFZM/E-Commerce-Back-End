@@ -14,14 +14,14 @@ Category.hasMany(Product, {
 });
 
 Product.belongsToMany(Tag, {
-  foreignKey: "product_id",
   through: ProductTag,
+  foreignKey: "product_id",
   onDelete: "CASCADE",
 });
 
 Tag.belongsToMany(Product, {
-  foreignKey: "tag_id",
   through: ProductTag,
+  foreignKey: "tag_id",
   onDelete: "CASCADE",
 });
 
