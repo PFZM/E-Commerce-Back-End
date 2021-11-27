@@ -1,15 +1,14 @@
-# README -  E-Commerce Back End
-
+# README - E-Commerce Back End
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Link to see the deployed application:
 
-[YouTube video](https://youtu.be)
+[YouTube video](https://youtu.be/xxW3Mcymnl4)
 
 ## Description
 
-This is a Back end application for an e-commece site. The application is build with Node.Js and uses the [MySQL2](https://www.npmjs.com/package/mysql2) and [Sequelize](https://www.npmjs.com/package/sequelize) packages to connect your Express.js API to a MySQL database and the [dotenv](https://www.npmjs.com/package/dotenv) package to use environment variables to store sensitive data.
+This is a Back end application for an e-commerce site. The application is build with Node.Js and uses the [MySQL2](https://www.npmjs.com/package/mysql2) and [Sequelize](https://www.npmjs.com/package/sequelize) packages to connect your Express.js API to a MySQL database and the [dotenv](https://www.npmjs.com/package/dotenv) package to use environment variables to store sensitive data.
 
 ## Table of contents:
 
@@ -37,7 +36,8 @@ npm install
 ```bash
 source db/shema.sql;
 ```
-7. Seed the database  with the following command:
+
+7. Seed the database with the following command:
 
 ```bash
 npm run seed
@@ -65,7 +65,6 @@ WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
 THEN I am able to successfully create, update, and delete data in my database
 ```
 
-
 ## License
 
 This project is covered under the MIT license.
@@ -81,4 +80,3 @@ Contributions follow the [Contributor Convenant](http://contributor-covenant.org
 [GitHub profile](http://github.com/PFZM)
 
 [Contact Me - Email](mailto:pfzm@hotmail.com)
-
